@@ -985,10 +985,9 @@ void ThreadSocketHandler2(void* parg)
 static const char *strDNSSeed[][2] = {
     {"mastermining.net", "mastermining.net"},
     {"seed.mastermining.net", "seed.mastermining.net"},
-    {"xvg.mastermining.ne", "xvg.mastermining.net"},
+    {"xvg.mastermining.net", "xvg.mastermining.net"},
     {"dns.mastermining.net", "dns.mastermining.net"},
     {"77.239.55.52", "77.239.55.52"}, 
-    {"77.239.55.52:9595", "77.239.55.52:9595"}, 
     {"dnsseed.prux.info", "dnsseed.prux.info"},
     {"dns.prux.info", "dns.prux.info"},
     {"dns.xplay999.com", "dns.xplay999.com"},
