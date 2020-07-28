@@ -19,16 +19,25 @@ PRUX is released under the terms of the MIT license. See [COPYING](COPYING) for 
 information or see https://opensource.org/licenses/MIT.
 
 
+
 PRUX COIN INFORMATION
 ---------------------
 Hash Algorithm : Scrypt
+
 Typ : Proof-of-Work
+
 Block Time : 9sec
+
 Miner Reward : 0.00959499 PRUX
+
 Actual Reward : 0.004797495 PRUX
+
 Difficulty Retarget : 5 - 12 Hours
+
 Mined Block Confirmation : 274
-Total Supply : After 90 Years only ~104k 
+
+Total Supply : After 90 Years only ~104000 
+
 Premine = ZERO
 
 
@@ -41,8 +50,9 @@ The contribution workflow is described in official BT-Thread
 
 NEXT STEPS
 ----------
-Update PRUX-Core and integrade merged mining, if somebody can help with code and testing, your welcome.
-planed in 2020, but only think about.
+-more user
+
+-more exchanges
 
 
 INSTALL INFORMATION
@@ -57,7 +67,16 @@ https://prux.mastermining.net/site/mining
 
 EXCHANGES
 ---------
-https://tradesatoshi.com/Exchange/?market=PRUX_BTC 
+https://ex.xbts.io/#/market/XBTSX.PRUX_BTS
+https://ex.xbts.io/#/market/XBTSX.PRUX_XBTSX.BTC
+https://ex.xbts.io/market/XBTSX.PRUX_YOYOW
+https://ex.xbts.io/#/market/XBTSX.PRUX_CNY
+https://ex.xbts.io/market/XBTSX.PRUX_XBTSX.ETH
+https://ex.xbts.io/#/market/XBTSX.PRUX_USDT
+https://ex.xbts.io/#/market/XBTSX.PRUX_XBTSX.LTC
+https://ex.xbts.io/market/XBTSX.PRUX_XBTSX.STH
+https://ex.xbts.io/market/XBTSX.PRUX_DEEX
+https://ex.xbts.io/market/XBTSX.PRUX_GDEX
 
 
 UBUNTU 14.04 BUILD NOTES
@@ -119,7 +138,7 @@ src/./prux -addnode=80.218.217.199:9595
 NODES
 -----
 
-addnode=80.218.217.199
+addnode=77.239.55.52:9595
 
 addnode=50.225.198.67
 
