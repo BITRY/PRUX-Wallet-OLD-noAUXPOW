@@ -20,7 +20,7 @@
 using namespace std;
 using namespace boost;
 
-static const int MAX_OUTBOUND_CONNECTIONS = 8;
+static const int MAX_OUTBOUND_CONNECTIONS = 16;
 
 void ThreadMessageHandler2(void* parg);
 void ThreadSocketHandler2(void* parg);
@@ -978,31 +978,22 @@ void ThreadSocketHandler2(void* parg)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // DNS seeds
 // Each pair gives a source name and a seed name.
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
+    {"mastermining.net", "mastermining.net"},
+    {"seed.mastermining.net", "seed.mastermining.net"},
+    {"xvg.mastermining.ne", "xvg.mastermining.net"},
+    {"dns.mastermining.net", "dns.mastermining.net"},
+    {"77.239.55.52", "77.239.55.52"}, 
+    {"77.239.55.52:9595", "77.239.55.52:9595"}, 
     {"dnsseed.prux.info", "dnsseed.prux.info"},
     {"dns.prux.info", "dns.prux.info"},
     {"dns.xplay999.com", "dns.xplay999.com"},
     {"xplay999.com", "xplay999.com"},
     {"prux.info", "prux.info"},
-    	
 };
 
 
@@ -1066,17 +1057,9 @@ void ThreadDNSAddressSeed2(void* parg)
 
 
 
-
-
-
-
-
-
-
-
 unsigned int pnSeed[] =
 {
-    0x50dad9c7, 0x55cae446, 0x6dc3670e, 0xb4f54c95, 0x3626b021,
+    0x4DEF3734,
 };
 
 void DumpAddresses()
