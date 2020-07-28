@@ -1,0 +1,22 @@
+name: '[FULL] ubuntu-18.04.'
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+
+    steps:
+      - uses: actions/checkout@v1
+        
+      - name: Update apt repos
+        run: sudo apt-get update
+        
+      - name: Install Bitcoin PPA 
+        run: sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com DFA2F90D && sudo apt-get update
+    
+      - name: Install base dependencies
+        run: sudo apt-get install build-essential libssl1.0-dev autoconf libtool libprotobuf-dev protobuf-compiler libevent-dev libqt4-dev libcanberra-gtk-module autotools-dev automake make cmake curl libdb-dev libdb++-dev libqrencode-dev libboost-dev libboost-all-dev 
+          
+      - name: make
+run: cd src/ && make -j22 -f makefile.unix USE_UPNP=-
