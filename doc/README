@@ -1,0 +1,65 @@
+prux 1.0
+
+Copyright (c) 2009-2012 Bitcoin Developers
+Copyright (c) 2011-2012 Litecoin Developers
+Copyright (c) 2013 Prux Developers!
+
+Distributed under the MIT/X11 software license, see the accompanying
+file COPYING or http://www.opensource.org/licenses/mit-license.php.
+This product includes software developed by the OpenSSL Project for use in
+the OpenSSL Toolkit (http://www.openssl.org/).  This product includes
+cryptographic software written by Eric Young (eay@cryptsoft.com).
+
+
+Intro
+-----
+prux is a free open source peer-to-peer electronic token system that is
+completely decentralized, without the need for a central server or trusted
+parties.  Users hold the crypto keys to their own money and transact directly
+with each other, with the help of a P2P network to check for double-spending.
+
+
+UBUNTU 14.04 BUILD NOTES
+========================
+
+sudo add-apt-repository ppa:bitcoin/bitcoin
+sudo apt-get update
+sudo apt-get install qt4-dev-tools libqt4-dev libqt4-core libqt4-gui
+sudo apt-get install build-essential
+sudo apt-get install libssl-dev
+sudo apt-get install libdb4.8-dev if not work try sudo apt-get install libdb-dev
+sudo apt-get install libdb4.8++-dev  if not work try sudo apt-get install libdb++-dev
+sudo apt-get install libqrencode-dev
+sudo apt-get install libboost1.48-dev   if not work try  sudo apt-get install libboost-dev
+sudo apt-get install libboost1.48-all-dev  if not work try  sudo apt-get install libboost-all-dev
+
+BUILD
+=====
+
+cd PRUX-COIN-master
+qmake "USE_UPNP=-"
+make                        (or  make -j2  , 2 core or the fast way or turbo with -j8)
+
+cd src
+make -f  makefile.unix USE_UPNP=-      (or -j2  ,the fast way or turbo with -j8)
+
+
+if error can help
+cd src
+chmod +x leveldb/build_detect_platform
+again
+
+
+Running
+=====
+
+/src/./prux 
+
+or QT-Wallet
+
+/./prux-qt -server
+
+
+See the documentation at the bitcoin wiki:
+  https://en.bitcoin.it/wiki/Main_Page
+for help and more information.
