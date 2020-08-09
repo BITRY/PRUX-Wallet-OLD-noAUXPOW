@@ -67,15 +67,24 @@ https://prux.mastermining.net/site/mining
 
 EXCHANGES
 ---------
-https://ex.xbts.io/#/market/XBTSX.PRUX_BTS
+https://ex.xbts.io/#/market/XBTSX.PRUX_BTS 
+
 https://ex.xbts.io/#/market/XBTSX.PRUX_XBTSX.BTC
+
 https://ex.xbts.io/market/XBTSX.PRUX_YOYOW
+
 https://ex.xbts.io/#/market/XBTSX.PRUX_CNY
+
 https://ex.xbts.io/market/XBTSX.PRUX_XBTSX.ETH
+
 https://ex.xbts.io/#/market/XBTSX.PRUX_USDT
+
 https://ex.xbts.io/#/market/XBTSX.PRUX_XBTSX.LTC
+
 https://ex.xbts.io/market/XBTSX.PRUX_XBTSX.STH
+
 https://ex.xbts.io/market/XBTSX.PRUX_DEEX
+
 https://ex.xbts.io/market/XBTSX.PRUX_GDEX
 
 
