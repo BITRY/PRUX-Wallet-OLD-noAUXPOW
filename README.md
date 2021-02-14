@@ -44,8 +44,11 @@ Premine = ZERO
 Yiimp Pool settings are...
 -------------------
 Has getinfo = True
+
 Has submitblock = false
+
 Txmessage = True
+
 RPC Type = POW
 
 
