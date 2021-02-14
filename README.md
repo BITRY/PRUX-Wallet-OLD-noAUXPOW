@@ -41,6 +41,14 @@ Total Supply : After 90 Years only ~104000
 Premine = ZERO
 
 
+Yiimp Pool settings are...
+-------------------
+Has getinfo = True
+Has submitblock = false
+Txmessage = True
+RPC Type = POW
+
+
 Development Process
 -------------------
 The `master` branch is regularly built and tested, but and is guaranteed to be
